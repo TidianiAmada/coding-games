@@ -37,7 +37,7 @@ LARGEUR_FENETRE = 600
 HAUTEUR_FENETRE = 600
 
 # Largeur de la route (elle sera centrée sur l'écran)
-LARGEUR_ROUTE = 400
+LARGEUR_ROUTE = 400 
 BORD_ROUTE = (LARGEUR_FENETRE - LARGEUR_ROUTE) // 2  # marge de chaque côté
 
 # Couleurs au format RGB (Rouge, Vert, Bleu) de 0 à 255

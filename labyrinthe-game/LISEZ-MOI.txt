@@ -1,0 +1,27 @@
+GUIDE — AJOUTER VOS PROPRES IMAGES AU JEU DE LABYRINTHE
+=========================================================
+
+Ce dossier est lu automatiquement par les 3 fichiers :
+labyrinthe_etape1_decor.py, labyrinthe_etape2_animations.py et
+labyrinthe_etape3_evenements.py.
+
+S'il est vide, le jeu fonctionne quand même (cercle bleu pour le
+personnage, disque doré pour les pièces). Si vous ajoutez les
+images ci-dessous, elles seront utilisées automatiquement.
+
+FICHIERS ATTENDUS (respectez exactement ces noms) :
+----------------------------------------------------
+  personnage.png   -> le personnage du joueur, vu de dessus
+  piece.png        -> une pièce de monnaie / un objet à collecter
+
+CONSEILS :
+----------
+- Préférez des images "vue de dessus", au format PNG avec un fond
+  TRANSPARENT.
+- Vérifiez toujours la licence de chaque image avant utilisation
+  (par exemple sur https://www.freepik.com ou https://www.flaticon.com) :
+  certaines demandent de citer l'auteur, d'autres sont totalement
+  libres selon votre usage (scolaire, personnel, commercial...).
+
+Placez vos fichiers ici, relancez le jeu : aucune modification du
+code n'est nécessaire !

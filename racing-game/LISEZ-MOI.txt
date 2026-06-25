@@ -1,0 +1,38 @@
+GUIDE — AJOUTER VOS PROPRES IMAGES AU JEU
+==========================================
+
+Ce dossier est lu automatiquement par les 3 fichiers du jeu
+(etape1_decor.py, etape2_animations.py, etape3_evenements.py).
+
+S'il est vide, le jeu fonctionne quand même : il dessine alors
+des voitures et des arbres "à la main" (vectoriel). Mais si vous
+ajoutez les images ci-dessous, elles seront utilisées automatiquement,
+pour un rendu encore plus réaliste.
+
+FICHIERS ATTENDUS (respectez exactement ces noms) :
+----------------------------------------------------
+  voiture_joueur.png       -> la voiture du joueur, vue de dessus
+  voiture_obstacle_1.png   -> une voiture adverse, vue de dessus
+  voiture_obstacle_2.png   -> une autre voiture adverse (facultatif)
+  voiture_obstacle_3.png   -> une autre voiture adverse (facultatif)
+  arbre.png                -> un arbre vu de dessus (pour le bas-côté)
+
+CONSEILS POUR CHOISIR DE BONNES IMAGES :
+------------------------------------------
+- Cherchez des icônes "top view" / "vue de dessus" (et pas de profil),
+  car notre jeu regarde la route depuis le ciel.
+- Préférez un format PNG avec un fond TRANSPARENT (pas blanc), pour
+  que la voiture ou l'arbre se détache bien du décor.
+- Sites possibles (vérifiez toujours la licence affichée sur la
+  page de chaque image avant de l'utiliser) :
+      https://www.freepik.com
+      https://www.flaticon.com
+  Certaines images gratuites nécessitent de citer l'auteur
+  ("attribution requise") ; d'autres sont totalement libres. Lisez
+  la licence proposée par le site pour votre cas d'usage précis
+  (projet scolaire, personnel, ou commercial).
+
+Une fois vos images téléchargées, renommez-les exactement comme
+indiqué ci-dessus et placez-les dans ce dossier "assets/", au même
+niveau que les fichiers .py du jeu. Relancez ensuite le jeu : aucune
+modification du code n'est nécessaire !
